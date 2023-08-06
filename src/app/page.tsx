@@ -1,9 +1,12 @@
+import Hero from "@/components/Hero";
 import Image from "next/image";
 
-export default function Home() {
+const Home = () => {
   return (
-    <main>
-      <h1>Hello world</h1>
+    <main className="overflow-hidden">
+      <Hero />
     </main>
   );
-}
+};
+
+export default Home;
